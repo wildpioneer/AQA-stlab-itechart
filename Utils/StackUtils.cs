@@ -7,6 +7,7 @@ namespace Lesson4.Utils
     public class StackUtils
     {
         private static Random rand = new Random();
+
         public static Stack<int> GetStackValues(Stack<int> stack1, Stack<int> stack2)
         {
             var newList = stack1.Distinct().Concat(stack2.Distinct()).ToList();
