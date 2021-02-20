@@ -1,4 +1,5 @@
-﻿
+﻿using Lesson4.Tasks;
+
 namespace Lesson4
 {
     class Program
@@ -6,6 +7,7 @@ namespace Lesson4
         static void Main(string[] args)
         {
             FirstTask.Runner();
+            FourthTask.Runner();
         }
     }
 }

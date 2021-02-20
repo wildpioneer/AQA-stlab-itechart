@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Lesson4.Utils;
 
-namespace Lesson4
+namespace Lesson4.Tasks
 {
     public class FirstTask
     {
