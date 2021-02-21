@@ -7,6 +7,7 @@ namespace Lesson4
         static void Main(string[] args)
         {
             FirstTask.Runner();
+            SecondTask.Runner();
             ThirdTask.Runner();
             FourthTask.Runner();
         }

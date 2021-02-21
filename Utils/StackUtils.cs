@@ -24,8 +24,8 @@ namespace Lesson4.Utils
             int start = 0;
             int count = 10;
             int maxValue = 50;
-            Stack<int> stack = new Stack<int>(Enumerable.Range(start, count).Select(
-                x => rand.Next(maxValue)).OrderByDescending(x => x).ToList());
+            Stack<int> stack = new Stack<int>(Enumerable.Range(start, count)
+                .Select(x => rand.Next(maxValue)).OrderByDescending(x => x).ToList());
             return stack;
         }
 
