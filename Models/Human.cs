@@ -10,6 +10,6 @@ namespace Lesson3.Models
         public string JobTittle { get; set; }
         public string JobDescription { get; set; }
         public int JobSalary { get; set; }
-        public string FullName => FirstName + " " + LastName;
+        public string FullName => FirstName + " " + LastName; //ToDo: Переделать в интерполированную строку
     }
 }
